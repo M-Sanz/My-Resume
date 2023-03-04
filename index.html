@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Mahara</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="bx bx-home nav__icon"></i>Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"> <i class="bx bx-user nav__icon"></i>Profile</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link"> <i class="bx bxs-book nav__icon"></i>Education </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class="bx bxs-receipt nav__icon"></i>Skills </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"> <i class="bx bx-briefcase nav__icon"></i>Experience </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"> <i class="bx bx-award nav__icon"></i>Certificates </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link"> <i class="bx bx-link-external nav__icon"></i>References </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/Ihsan.jpg" alt="" class="home__img" />
+                <h1 class="home__title">MAHARA <b>IHSAN</b></h1>
+                <h3 class="home__profession">Web Developer</h3>
+                <div>
+                  <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                </div>
+              </div>
+              <div class="home__Address bd-grid">
+                <span class="home__information"> <i class="bx bx-map home__icon"></i> Ciruas, Serang </span>
+                <span class="home__information"> <i class="bx bx-envelope home__icon"></i> maharaihsan@gmail.com</span>
+                <span class="home__information"> <i class="bx bx-phone home__icon"></i> 082112927413</span>
+              </div>
+            </div>
+
+            <!-- Theme Change Button -->
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+            <!-- Button to generate and download the pdf -->
+            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+          </section>
+
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a href="https://linkedin.com/in/mahara-ihsan-kahfi" target="_blank" class="social__link"> <i class="bx bxl-linkedin-square social__icon"></i> Mahara Ihsan Kahfi </a>
+            </div>
+            <div class="social__container bd-grid">
+              <a href="https://www.facebook.com/mahara.ihsan.3" target="_blank" class="social__link"> <i class="bx bxl-facebook-square social__icon"></i> Mahara Ihsan </a>
+            </div>
+            <div class="social__container bd-grid">
+              <a href="https://www.instagram.com/maharaihsan" target="_blank" class="social__link"><i class="bx bxl-instagram social__icon"></i> maharaihsan </a>
+            </div>
+          </section>
+
+          <!-- Profile -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">A Final year computer science student with enthusiasm in the field of software development. currently focusing learning on this field as backend developer.</p>
+          </section>
+
+          <!-- Education -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">COMPUTER SCIENCE</h3>
+                  <span class="education__studies">Bogor Agricultural University</span>
+                  <span class="education__year">2019 - 2024</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SENIOR HIGH SCHOOL</h3>
+                  <span class="education__studies">SMAN CMBBS</span>
+                  <span class="education__year">2016-2019</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- SKILLS -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">SKILLS</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span> HTML/CSS</li>
+                <li class="skills__name"><span class="skills__circle"></span> Javascript</li>
+                <li class="skills__name"><span class="skills__circle"></span> Rest API</li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span> PHP</li>
+                <li class="skills__name"><span class="skills__circle"></span> SQL</li>
+                <li class="skills__name"><span class="skills__circle"></span> MongoDB</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="resume__right">
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="expreience__title">Backend Developer</h3>
+                  <span class="experience__company">Dec 2022 - Feb 2023 | Safe Click</span>
+                  <p class="experience__description">- Create authentication API for Warga Peduli Lingkungan web app <br />- Design database for users</p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="expreience__title">Laravel Developer</h3>
+                  <span class="experience__company">Aug 2022 to Desember 2022 | Project for MPPL Subject</span>
+                  <p class="experience__description">
+                    - Integration of user-facing elements developed by a front-end developers with server side logic <br />
+                    - Design and implement Database <br />- Implementation of security and data protection
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- CERITIFICATES -->
+          <section class="sertificate section" id="certificates">
+            <h2 class="section-title">CertificateS</h2>
+            <div class="sertificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="sertificate__title">Belajar Membuat Aplikasi Back-End untuk Pemula - Dicoding</h3>
+                <p class="sertificate__description">
+                  Issued Dec 2022 - Expires Dec 2025 <br />
+                  QLZ927YL9X5D
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="sertificate__title">Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) - Dicoding</h3>
+                <p class="sertificate__description">
+                  Issued Dec 2022 - Expires Dec 2025 <br />
+                  1RXYO1J7QPVM
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="sertificate__title">Belajar Prinsip Pemrograman SOLID - Dicoding</h3>
+                <p class="sertificate__description">
+                  Issued Jan 2023 - Expires Jan 2026 <br />
+                  QLZ926DD9X5D
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- REFERENCES
+          <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-999-999</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-999-999</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+
+          <!-- LANGUAGES -->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name"><span class="languages__circle"></span> English</li>
+                <li class="languages__name"><span class="languages__circle"></span> Indonesia</li>
+                <!-- <li class="languages__name"><span class="languages__circle"></span> English</li> -->
+              </ul>
+            </div>
+          </section>
+
+          <!-- INTEREST -->
+          <section class="interest section">
+            <h2 class="section-title">interest</h2>
+            <div class="interest__container bd-grid">
+              <div class="interest__content">
+                <i class="bx bx-headphone interest__icon"></i>
+                <span class="interest__name">Music</span>
+              </div>
+              <div class="interest__content">
+                <i class="bx bx-code interest__icon"></i>
+                <span class="interest__name">Coding</span>
+              </div>
+              <div class="interest__content">
+                <i class="bx bxs-joystick interest__icon"></i>
+                <span class="interest__name">Games</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bxs-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
