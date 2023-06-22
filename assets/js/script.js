@@ -92,10 +92,10 @@ function removeScale() {
 
 // GENERATE PDF
 let areaCv = document.getElementById("area-cv");
-
+let today = new Date().toJSON().slice(0, 10);
 let opt = {
   margin: 1,
-  filename: "myResume.pdf",
+  filename: `Resume ${today}.pdf`,
   image: { type: "jpeg", quality: 1 },
   html2canvas: { scale: 4 },
   jsPDF: { format: "a4", orientation: "portrait" },
