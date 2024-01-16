@@ -296,12 +296,6 @@ img {
   text-align: center;
 }
 
-.nav__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -593,6 +587,12 @@ img {
     grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
     box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+  }
+
+  .nav__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 
   .resume__left {
