@@ -244,7 +244,7 @@ img {
 
 .bd-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 0.7rem;
 }
 
 .l-header {
